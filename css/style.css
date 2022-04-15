@@ -1,0 +1,21 @@
+
+
+.lists{
+    display: flex;
+    gap: 30px;
+}
+
+.lists .list{
+    flex-basis: 50%;
+    background-color: #ccc;
+    padding: 30px;
+    min-height: 300px;
+}
+.lists .list .list-item{
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin: 4px 0;
+    cursor: pointer;
+}
